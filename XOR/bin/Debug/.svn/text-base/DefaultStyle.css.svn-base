@@ -1,0 +1,35 @@
+body
+{
+	margin-left: 1.5cm; background-color: black;
+}
+
+
+
+h1
+{
+	font-family:Helvetica,Arial,sans-serif;
+	font-size: 12;
+	color : red;
+}
+
+h2
+{
+	font-family:Helvetica,Arial,sans-serif;
+	font-size: 11;
+	color : blue;
+}
+
+h3
+{
+	font-family:Helvetica,Arial,sans-serif;
+	font-size: 11;
+	font-style: italic
+}
+
+
+p,li 
+{
+	font-family:Helvetica,Arial,sans-serif;
+	font-size: 11;
+	color : white;
+}

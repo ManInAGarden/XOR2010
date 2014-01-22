@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>SText Vorschau</title>
+<link rel="stylesheet" type="text/css" href="./DefaultStyle.css">
+</head>
+<body>
+<h1>XOR</h1>
+
+<h1>Was ist XOR?</h1>
+
+<p>Das Computerspiel XOR wurde erstmals 1987 von Astral Software entwickelt und von Logotron zunächst für den BBC Micro veröffentlicht. Im Lauf der folgenden Jahre wurde es auch für folgende weitere Homecomputer herausgegeben:
+Acorn Electron, Amiga, Amstrad CPC, Atari ST, Commodore 64, und ZX Spectrum.</p>
+
+<p>Viel später wurde es auch von unabhängigen Entwicklern für MS-Windows, Apple McIntosh, RISC-OS und den Game-Boy Advance reprogrammiert und im Internet veröffentlicht.</p>
+
+<p>Was XOR ist beschreibt recht anschaulich die Anzeigekampagne des Originalspiels von 1987:
+[...]
+XOR ist ein Puzzle in dem es keine Zufälle gibt. Geschwindigkeit und motorisches Geschick sind unwichtig. Man hat so viel Zeit wie man will jedes einzelne der Rätsel zu lösen. Logisches Denken, Strategie und Taktik sind Teil des Spielerlebnisses. Aber das Lösen von Rätseln ist nicht alles. Bewältigt man alle 15 Labyrinthe und findet den Codeschlüssel, ist man im Besitz eines geheimen Lösungswortes. Damit wird man zum Mitglied des Ordens des XOR.
+[...]</p>
+
+<h1>Ziel des Spiels</h1>
+
+<p>Der Spieler steuert zwei Schilde (Magus und Questor) die mit den Pfeiltasten der Tastatur waagerecht und senkrecht durch ein Labyrinth bewegt werden können. In jedem einzelnen der insgesamt 15 Labyrinthe ist es das Ziel alle (wirklich alle) Masken einzusammeln und dann das Labyrinth durch eine Ausgangstür zu verlassen. In allen Labyrinthen werden stets beide Schilde zur Lösung gebraucht. Dabei muss man manchmal auch eines der beiden Schilde opfern (einmauern, zerstören lassen) um das Labyrinth zu bewältigen. Am Ende jedes Labyrinths erhält der Spieler einen Buchstaben aus dem Lösungswort, das die wahre Natur von XOR offenbart.</p>
+
+<h1>Kraftfelder</h1>
+
+<p>Im ersten Labyrinth gibt es neben den Wänden lediglich sog. Kraftfelder, die der Lösung im Weg stehen. Die zwei Arten von Kraftfeldern unterscheiden sich in der Richtung in der sie durchschritten werden können. So gibt es waagerecht und senkrecht wirkende Kraftfelder.</p>
+
+<p>In beiden Fällen zerstört das Durchschreiten das Kraftfeld.</p>
+
+<h1>Fische und Hühner</h1>
+
+<p>In den folgenden Labyrinthen kommen Fische und Hühner hinzu. Fische fallen senkrecht nach unten wenn ihnen nichts im Wege steht. Hühner laufen von recht nach links bis sie auf ein Hindernis treffen. Dabei können auch Fische und Hühner durch Kraftfelder laufen, wenn dies in der für das Kraftfeld erlaubten Laufrichtung geschieht.</p>
+
+<p>Beide können die Schilde des Spielers zerstören, wenn sie es aus einem Abstand von mehr als einem Feld treffen.</p>
+
+<h1>Bomben</h1>
+
+<p>In XOR gibt es zwei Arten von Bomben: Horizontalbomben (H-Bomben) und Vertikalbomben (V-Bomben). V-Bomben sehen aus wie ein Glas voller Nitroglycerin und bewegen sich wie Hühner (also horizontal). H-Bomben hingegen werden als klassische Bomben mit Zündschnur dargestellt und fallen von oben nach unten so wie die Fische (also vertikal). H- und V- bezieht sich also nicht auf die Bewegungsrichtung. </p>
+
+<p>Vielmehr bezeichnet es die Explosionswirkung. H-Bomben explodieren ausschließlich horizontal, d.h. das Feld rechts und links von der Bombe wird zerstört während das Feld über und unter der Bomber unbeschädigt bleibt. Die V-Bomben explodieren dagegen vertikal.</p>
+
+<p>Auch fallende bzw. laufende Bomben können Magus und Questor zerstören. Steht eines der Schilde bei der Explosion am falschen Platz wird es ebenfalls zerstört.</p>
+
+<p>Die Explosion einer Bombe wird durch einen fallenden Fisch, ein laufendes Huhn oder auch durch eine andere sich bewegende Bombe ausgelöst.</p>
+
+<h1>Puppen</h1>
+
+<p>Im Gegensatz zu Fischen, Hühnern und Bomben können Puppen sich nicht von allein bewegen. Allerdings können Magus und Questor sie durch das Labyrinth schieben. Puppen haben dann allerdings die unangenehme Eigenschaft, dass sie erst aufhören zu laufen wenn sie auf ein Hindernis treffen. </p>
+
+<p>Puppen sind weich. Deshalb können sie keine Bomben zu Detonation bringen und auch nicht durch Kraftfelder laufen, auch dann nicht, wenn die Laufrichtung für das Kraftfeld richtig wäre.</p>
+
+<h1>Andere Gegenstände</h1>
+
+<ul>
+<li><p>Labyrinthsteine: Werden dies von Magus oder Questor durchschritten offenbart jeder dieser Steine ein viertel der Karte des Labyrinths.</p></li>
+<li><p>Traurige Masken: Müssen ebenfalls gesammelt werden bevor man das Labyrinth verlassen kann. Beim Sammeln wird allerdings der Lichtschalter für das Labyrinth betätigt und alle Mauern werden unsichtbar bzw. wieder sichtbar.</p></li>
+<li><p>Teleporter: (BMUS - Beam Me Up Scotty) Transportieren Magus bzw. Questor zu einem anderen Teleporter bzw. wieder zurück.</p></li>
+</ul>
+
+<h1>Steuerung des Spiels</h1>
+
+<p>Das Spiel wird ausschließlich mit der Tastatur gesteuert. Je nach Modus bewirken die Tasten folgendes:</p>
+
+<p>Immer:</p>
+
+<ul>
+<li><p>P - Piano: Die Musik wird leiser</p></li>
+<li><p>F - Forte: Die Musik wird lauter</p></li>
+</ul>
+
+<p>Im Startbild:</p>
+
+<ul>
+<li><p>L - Level: Wählt das nächste Level aus.</p></li>
+<li><p>Space - Start: Startet das Labyrinth. Man wechselt in den Spielmodus.</p></li>
+<li><p>R - Replay: Gibt alle zuvor getätigten Spielzüge wieder.</p></li>
+</ul>
+
+<p>Im Spiel:</p>
+
+<ul>
+<li><p>Pfeiltasten: Bewegt das aktive Schild in Richtung der Pfeiltaste</p></li>
+<li><p>Return: Wechselt zwischen den beiden Schilden</p></li>
+<li><p>E - Ende: Beendet das aktuelle Labyrinth vorzeitig und man wechselt in den Startbildschirm</p></li>
+</ul>
+</body>
+</html>
