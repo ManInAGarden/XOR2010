@@ -1,6 +1,6 @@
 XOR 2010
 ========
 
-Game of XOR my Version.
+Game of XOR - my version.
 
-* copy the original game XOR from the 80s as exactly as possible
+* copy of the original game XOR from the 80s as exactly as possible
